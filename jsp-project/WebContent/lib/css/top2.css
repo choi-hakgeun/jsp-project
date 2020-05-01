@@ -1,0 +1,305 @@
+.btngroup{
+    display: flex;
+    padding-top: 8px;
+    padding-left: -3px;
+}
+
+#btnSign{
+  
+    display: inline-block;
+	margin-right: 15px;
+
+}
+
+#btnLogin{
+    font-weight: bold; 
+    background-color: rgba(255, 0, 0, 0); 
+    color: black; 
+    height: 30px;
+    border: none;
+	margin-right: 13px;
+}
+#logout{
+	font-size: 33px;
+	color: #ff2f6e;
+}
+
+.span1:hover,.span2:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+#findStr{
+    background-color: #eee;
+    border: 0px;
+}
+.input-group-addon{
+    border: 0px;
+}
+.glyphicon-search{
+    font-size: 20px;
+    color:#aaa;
+}
+#logo{
+    font-size: 28px;
+    color: crimson;
+    padding-top:20px;
+    font-weight: bold;
+}
+#profile-image{
+    width:50px;
+
+}
+.col-xs-2{
+    margin-right: 0px;
+}
+#profile-group>span{
+    background-color: #fff;
+    
+}
+#logout-span{
+    padding-right: 5px;
+}
+.div-2{
+    padding-right: 0px;
+    text-align: -webkit-right;
+}
+.span1,.span2{
+    padding-right: 0px;
+    padding-left: 0px;
+    width:65px;
+    padding-top: 0px;
+}
+.top{
+    border-bottom: 1px solid #eee;
+    padding-top:15px;
+    background-color: transparent;
+}
+.hd .form-group{
+    margin-bottom: 5px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.pink{
+    color: #ff2f6e !important;
+}
+
+#findStr{
+    background-color: #eee;
+    border: 0px;
+}
+.input-group-addon.span1{
+    border: 0px;
+    background-color: transparent;
+}
+.input-group-addon.span2{
+    border: 0px;
+    background-color: transparent;
+}
+.hd .row{
+    padding-top:15px;
+}
+
+#logo{
+    font-size: 28px;
+    color: #ff2f6e;
+    padding-top:20px;
+    font-weight: bold;
+}
+#profile-image{
+    width:50px;
+
+}
+#logout{
+    font-size: 33px;
+    color:#aaa;
+    
+}
+.col-xs-2{
+    margin-right: 0px;
+}
+
+#logout-span{
+    padding-right: 5px;
+}
+.div-2{
+    padding-right: 0px;
+    text-align: -webkit-right;
+}
+
+.top{
+    border-bottom: 1px solid #eee;
+}
+.hd .form-group{
+    margin-bottom: 5px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-fixed-top {
+	background-color: transparent;
+    transition: background-color 200ms linear;
+    border-bottom: none;
+  }
+
+.row.top{
+    border-bottom: none;
+}
+
+.span1, .span2{
+    padding-right: 0px;
+    padding-left: 0px;
+    width:65px;
+	padding-top: 0px;
+	display: inline-block;
+	background-color: transparent !important;
+	border: none;
+	cursor:pointer;
+}
+.login-input{
+	border:none;
+    background: #eee;
+    height: 50px;
+}
+}
+#login-Modal button{
+	border:none;
+}
+.login_logo{
+	color:  #ff2f6e;
+    font-size: 52px;
+    font-weight: bold;
+    border:none;
+}
+.login_logo2{
+	font-size: 17px;
+    font-weight: bold;
+    border:none;
+}
+#btn_main_login{
+    background: #ff2f6e;
+    COLOR: WHITE;
+    FONT-WEIGHT: bold;
+    border:none;
+}
+#btn_find_pwd{
+	margin-top: 17px;
+    color: #ff2f6e;
+    font-size: 16px;
+    border:none;
+}
+#btn_modal_join{
+	font-size: 16px;
+    color: #ff2f6e;
+    border:none;
+}
+.madal_text{
+	font-size: 16px;
+	color:#aaa;
+}
+#btn_modal_naver_login{
+	border:none;
+	background:#68e04d;
+	color:white;
+	font-weight:bold;
+}
+#join-Modal button{
+	border:none;
+}
+.j_m{
+	border:none;
+    background: #eee;
+    height: 50px;	
+}
+#btn_modal_join_sb{
+	background: #ff2f6e;
+    COLOR: WHITE;
+    FONT-WEIGHT: bold;
+    border:none;
+}
+#btn_find_pwd_send{
+	background: #ff2f6e;
+    COLOR: WHITE;
+    FONT-WEIGHT: bold;
+    border:none;
+}
+#btn_modal_join_Save{
+	font-size: 16px;
+    color: #ff2f6e;
+    border:none;
+}
+#modal_text{
+	margin-top: 24px;
+}
+.logout-text{
+	font-size:17px;
+}
+.logout-btns{
+	text-align:center;
+}
+#logout_no{
+	border:none;
+	background:#eee;
+}
+#logout_yes{
+	border:none;
+	background:#ff2f6e;
+}
+.email_n{
+    border: 1px solid red;
+    background: rgb(255, 240, 240);
+    margin-bottom: 10px;
+}
+.left_bar{
+	position: relative;
+	top:9px;
+	left : 30px;
+	
+	width:50%;
+	text-align: left;
+	float: left;
+}
+.right_bar{
+	position: relative;
+	top:9px;
+	left : 30px;
+	
+	width:50%;
+	text-align: left;
+	float: left;
+}
+#findStr2{
+	height: 40px;
+    border: none;
+    position: relative;
+    text-align:left;
+}
+#cmpB>span{
+    border: none;
+    position: relative;
+    background: none;
+}
+#findStr2:hover{
+	background:#eee;
+}
+#findStr3{
+	border: none;
+    text-align: left;
+    height: 40px;
+}
+#findStr3:hover{
+	background:#eee;
+}
+#rc{
+	 width: 87%;
+}
+#td{
+	width: 87%;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.manager_member_modify_form{
+    height: 500px;
+}
+.manager_member_modify_text_form{
+    height: 500px;
+}
+.manager_member_modify_text_result{
+    position: relative;
+    top: 30px;
+}
+.manager_member_modify_btn_result{
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+.manager_member_modify_img_form{
+    height: 500px;
+}
+.manager_member_modify_img_result{
+    position: relative;
+    top: 50px;
+}
+.mr-3 {
+margin-right: 13px;
+}
+#btnMemberFile{
+    position: relative;
+    top: 65px;
+}

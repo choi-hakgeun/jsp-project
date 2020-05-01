@@ -1,0 +1,102 @@
+.mmp-tab{
+	position: absolute;
+    top: 178px;
+    width: 99%;
+}
+.mmp-cont{
+    margin-left: 3px;
+}
+.mmp-ul a{
+    padding:15px 70px;
+}
+.nav>li>a{
+	padding:15px 70px;
+}
+
+
+.mmp-saw-img>ul{
+	list-style: none;
+    margin: 0;
+    display:-webkit-inline-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 4px 5px;	
+}
+.mmp-star-img>ul{
+	list-style: none;
+    margin: 0;
+    display:-webkit-inline-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 4px 5px;	
+}
+.mmp-plus-pic>img{
+	height: 184px;
+}
+.mmp-plus-1{
+	margin-left: 18px;
+}
+.mmp-plus-2{
+	margin-left: 15px;
+}
+.mmp-plus-pic{
+	margin-bottom: 10px;
+}
+.mmp-plus-1>a:hover{
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.mmp-plus-des-title{
+    color: black;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mmp-plus-des-year{
+    color: gold;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mmp-plus-des{
+    text-decoration: none !important;
+	width:126px;
+}
+.mmp-saw{
+    display:inline-block;
+    width: 100%;
+}
+.mmp-eval{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;  
+}
+.mmp-saw-num{
+    color: #aaa;
+}
+.mmp-more-div{
+    display: inline-block;
+ 	float: right;
+    margin-top: 21px;
+    color: red;
+}
+.mmp-more-div>a{
+    text-decoration: none;
+    color: red;
+}
+.mmp-more-div>a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+.ttt{
+	color:black;
+}

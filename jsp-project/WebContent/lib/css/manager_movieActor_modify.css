@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.manager_movieActor_modify_form{
+    height: 500px;
+}
+.manager_movieActor_modify_text_form{
+    height: 500px;
+}
+.manager_movieActor_modify_text_result{
+    position: relative;
+    top: 30px;
+}
+.manager_movieActor_modify_btn_result{
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+.manager_movieActor_modify_img_form{
+    height: 500px;
+}
+.manager_movieActor_modify_img_result{
+    position: relative;
+    top: 55px;
+}
+.mr-3 {
+margin-right: 13px;
+}
+#btnMovieActorFile{
+    position: relative;
+    top: 65px;
+}

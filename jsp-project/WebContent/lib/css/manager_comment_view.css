@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.manager_comment_view_form{
+    height: 500px;
+}
+.manager_comment_view_text_form{
+    height: 500px;
+}
+.manager_comment_view_text_result{
+    position: relative;
+    top: 30px;
+}
+.manager_comment_view_btn_result{
+    position: relative;
+    top: 40px;
+	left: 95px;
+}
+.manager_comment_view_img_form{
+    height: 500px;
+}
+.manager_comment_view_img_result{
+    position: relative;
+    top: 105px;
+}
+.mr-3 {
+margin-right: 13px;
+}

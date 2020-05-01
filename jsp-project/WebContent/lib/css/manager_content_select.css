@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.manager_content_select_main{
+    background-color: white;
+    height: 500px;
+}
+.manager_content_select_find_form{
+    background-color: white;
+    height: 65px;
+}
+.content_search{
+    position: relative;
+    top: 15px;
+    width: 100%;
+}
+.manager_content_select_title_form{
+    background-color: white;
+    height: 435px;
+}
+#manager_content_select_title{
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+#content_result{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: large;
+    margin-top: 7px;
+}
+.c_id{
+width: 25%;
+}
+.c_name{
+width: 25%;
+}
+.c_category{
+width: 25%;
+}
+.c_genre{
+width: 25%;
+}

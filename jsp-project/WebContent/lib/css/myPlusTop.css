@@ -1,0 +1,15 @@
+.mv-findTop-title{
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+#mv-findTop-button{
+    margin-top: 3px;
+    color: red;
+    border: none;
+    padding-left:2px;
+}
+.navbar-default{
+	border:none;
+	
+}

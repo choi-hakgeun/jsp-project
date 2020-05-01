@@ -1,0 +1,16 @@
+.findTop-div1{
+    height:40px;
+    border-bottom: 0.7px solid #eee;
+}
+.findTop-title{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+#findTop-button{
+    margin-top: 3px;
+    color: red;
+    border: none;
+    position: absolute;
+}

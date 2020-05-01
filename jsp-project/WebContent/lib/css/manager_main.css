@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.manager_main_background{
+    background-image: url("../images/mainPage_image/MAIN_TOP.jpg");
+    background-size:100% 100%;
+    height: 285px;
+}
+.manager_logo{
+    font-size: -webkit-xxx-large;
+    color: white;
+    text-align: center;
+    top: 85px;
+    position: relative;
+}
+.manager_memu_title{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.member_manager_menu{
+    height: 50px;
+    width: 25%;
+}
+.member_manager{
+    position: relative;
+    top: 2px;
+    background-color: black;
+    border-style: none;
+}
+.movie_manager_menu{
+    height: 50px;
+    width: 25%;
+}
+.movie_manager{
+    position: relative;
+    width: 100%;
+    top: 7px;
+    background-color: black;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+}
+.comment_manager_menu{
+    height: 50px;
+    width: 25%;
+}
+.comment_manager{
+    position: relative;
+    top: 2px;
+    background-color: black;
+    border-style: none;
+}
+.movieActor_manager_menu{
+    height: 50px;
+    width: 25%;
+}
+.movieActor_manager{
+    position: relative;
+    width: 100%;
+    top: 7px;
+    background-color: black;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+}
+.main_content{
+    height: 500px;
+}
+.member_manager:hover,.member_manager:focus,.member_manager:visited,.member_manager:active{
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+.movie_manager:hover.movie_manager:focus,.movie_manager:visited,.movie_manager:active{
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+.comment_manager:hover, .comment_manager:focus, .comment_manager:visited, .comment-manager:active{
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+.movieActor_manager:hover.movieActor_manager:focus,.movieActor_manager:visited,.movieActor_manager:active{
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+#content_menu, #movieActor_menu{
+	width: 100%;
+}
+#btn_content_select, #btn_content_insert, #btn_movieActor_select, #btn_movieActor_insert{
+	width: 100%;
+    background-color: white;
+    border-style: none;
+    font-size: large;
+}

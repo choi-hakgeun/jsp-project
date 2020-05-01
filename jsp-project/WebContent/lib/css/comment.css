@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* 20-03-23 코맨트 css */
+.comment_title_start{
+    margin-top: 165px;
+}
+
+.comment_box{
+    border-radius: 3px;
+}
+
+.comment_border{
+    height: auto;
+    top: -20px;
+    border-radius: 3px;
+}
+.comment_title_border{
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.comment_title{
+    height: 50px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+.comment_star{
+    height: 50px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+.comment_result{
+    height: auto;
+    background-color: lightgray;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+#result{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: 600;
+}
+.comment_like_border{
+    height: 40px;
+    background-color: lightgray;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.like_button{
+    height: 40px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+@media(max-width: 1006px){
+    .comment_border{
+        width: 60%;
+        left: -57px;
+    }
+}
+@media(max-width: 845px){
+    .comment_border{
+        width: 96.5%;
+        margin-left: 72px;
+    }
+} 
+@media(max-width: 800px){
+    .comment_border{
+        width: 96.2%;
+        margin-left: 72px;
+    }
+} 
+@media(max-width: 670px){
+    .comment_border{
+        width: 95.5%;
+        margin-left: 72px;
+    }
+} 
+@media(max-width: 600px){
+    .comment_border{
+        width: 95.2%;
+        margin-left: 71px;
+    }
+}
+@media(max-width: 500px){
+    .comment_border{
+        width: 94.1%;
+        margin-left: 71px;
+    }
+}
+.img-circle{
+    height: 41px;
+    top: -2px;
+    position: relative;
+}
+#like_comment{
+    position: relative;
+    font-size: 22px;
+    left: -5px;
+    top: 7px;
+    color: gray;
+}
+#title_border{
+    top: 7px;
+    position: relative;
+    height: 35px;
+}
+#title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#like{
+    text-transform: none;
+}
+#btn_like{
+    border-style: none;
+    font-size: large;
+    background-color: lightgray;
+    color: red;
+    position: relative;
+    top: 6px;
+}
+#star{
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    top: 15px;
+    position: relative;
+    background-color: white;
+    border-radius: 40px;
+    font: caption;
+}
+.back{
+    border-style: none;
+    color: red;
+    position: relative;
+    margin-bottom: -12px;
+}
+.profile-img{
+    background-color: lightgray;
+    text-transform: none;
+    border-style: none;
+}

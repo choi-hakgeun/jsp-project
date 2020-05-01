@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.manager_movieActor_select_main{
+    background-color: white;
+    height: 500px;
+}
+.manager_movieActor_select_find_form{
+    background-color: white;
+    height: 65px;
+}
+.movieActor_search{
+    position: relative;
+    top: 15px;
+    width: 100%;
+}
+.manager_movieActor_select_title{
+    background-color: white;
+    height: 435px;
+}
+#title{
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+#result{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: large;
+    margin-top: 7px;
+}
+.a_id{
+width: 25%;
+}
+.a_position{
+width: 25%;
+}
+.a_name{
+width: 25%;
+}
+.a_work{
+width: 25%;
+}

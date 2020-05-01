@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@media (max-width: @screen-xs-max) { 
+	.col-xs-8{width:718px;}
+}
+#m{
+margin-top:100px; 
+background-size:150px;
+border-radius: 7px 7px 0px 0px;
+border-left: 1px solid #c0c0c0;
+border-right: 1px solid #c0c0c0;
+border-top: 1px solid #c0c0c0;
+border-bottom: 0px;
+}
+#d{
+background-image:url('../images/m_top_back.jpg'); 
+background-size:150px;
+height:200px;
+border-radius: 7px 7px 0px 0px;
+border:0px;
+}
+#a{	
+border:0px;
+border-radius: 7px;
+padding:0 !important;
+background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3), rgba(255,255,255,0) );	
+}
+#i{
+width:50px !important;
+}
+#y{
+border-left: 1px solid #c0c0c0;
+border-right: 1px solid #c0c0c0;
+border-top: 0px;
+border-bottom: 0px;
+margin-top:150px;
+padding-left:30px;
+}
+.taste_icon{
+width:100px;
+height:23px; 
+background: url( "../images/taste_icon.png" ) no-repeat;
+background-size: contain;
+border:none;
+}
+.taste_icon:hover{
+border-bottom:1px solid #0080ff;
+}
+#f{
+padding-left:30px;
+border-left: 1px solid #c0c0c0;
+border-right: 1px solid #c0c0c0;
+border-top: 0px;
+border-bottom: 0px;
+background-color:white;
+}
+#t{
+border-radius: 0px 0px 7px 7px;
+border-top: 0px;
+border-left: 1px solid #c0c0c0;
+border-right: 1px solid #c0c0c0;
+border-bottom: 1px solid #c0c0c0;
+background-color:white;
+}
+#movie{
+width:220px;
+height:220px;
+background: url( "../images/movie.png" ) no-repeat;
+background-size: contain;
+border:none;
+margin: 0px 5px 30px 5px; 
+}
+#movie:hover{
+transform:scale(1.1);
+}
+#tv{
+width:220px;
+height:220px;
+background: url( "../images/tv.png" ) no-repeat;
+background-size: contain;
+border:none;
+margin: 0px 5px; 
+}
+#tv:hover{
+transform:scale(1.1);	
+}
+.h{
+font-size:1.3em;
+font-weight:700;
+font-height:900;
+color: white;
+}
+.g{
+font-size:1.1em;
+font-weight:700;
+color: white;
+}

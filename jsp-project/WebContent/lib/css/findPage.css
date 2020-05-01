@@ -1,0 +1,304 @@
+.modal-open{
+    padding: 0px !important;
+    overflow: inherit;
+}
+
+#findStr{
+    background-color: #eee;
+    border: 0px;
+}
+.input-group-addon{
+    border: 0px;
+}
+.hd .row{
+    padding-top:15px;
+}
+
+.glyphicon-search{
+    font-size: 20px;
+    color:#aaa;
+}
+#logo{
+    font-size: 28px;
+    color: crimson;
+    padding-top:20px;
+    font-weight: bold;
+}
+#profile-image{
+    width:50px;
+
+}
+#logout{
+    font-size: 33px;
+    color:#aaa;
+    
+}
+.col-xs-2{
+    margin-right: 0px;
+}
+#profile-group>span{
+    background-color: #fff;
+    
+}
+#logout-span{
+    padding-right: 5px;
+}
+.div-2{
+    padding-right: 0px;
+    text-align: -webkit-right;
+}
+.span1,.span2{
+    padding-right: 0px;
+    padding-left: 0px;
+    width:65px;
+    padding-top: 0px;
+}
+.top{
+    border-bottom: 1px solid #eee;
+}
+.hd .form-group{
+    margin-bottom: 5px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.topfind{
+    width:100%;
+    height:400px;
+    background-color: aqua;
+}
+h4{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.movie,.drama{
+  
+    width:100%;
+    
+}
+
+.drama{
+    width:100%;
+    height:300px;
+  
+}
+.tf{
+    display: inline-block;
+    width:100%;
+    height:300px;
+}
+
+.tf-s{
+    display: inline-block;
+    height:100px;
+    width:9.7%;
+    
+}
+
+@media (max-width:1214px){
+    .hidden-mg{
+        display: none;
+    }
+    .tf-s{
+        width:10.8%
+    }
+}
+@media (max-width:1158px){
+    .hidden-vg{
+        display:none;
+    }
+    .tf-s{
+        width:12.1%
+    }
+}
+@media (max-width:1107px){
+    .hidden-sg{
+        display: none;
+    }
+    .tf-s{
+        width:13.9%
+    }
+}
+@media (max-width:960px){
+    .hidden-bg{
+        display: none;
+    }
+    .tf-s{
+        width:16.2%
+    }
+}
+@media (max-width:826px){
+    .hidden-rg{
+        display: none;
+    }
+    .tf-s{
+        width: 19.5%;
+    }
+}
+@media (max-width:668px){
+    .hidden-eg{
+        display: none;
+    }
+    .tf-s{
+        width:24.4%;
+    }
+}
+@media (max-width:532px){
+    .hidden-wg{
+    display:none;
+    }
+    .tf-s{
+        width: 32.7%;
+    }
+}
+.thumbnail>img{ /*이미지 크키 조절*/
+    height: 180px;
+    width: 132px;
+}
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.mv-title{
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:20px;
+    white-space: nowrap;
+}
+.mv-year,.mv-genre{
+    color: #aaa;
+    font-size: 13px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:20px;
+    white-space: nowrap;
+    
+}
+.carousel-control{
+    width:3%;
+    top: -24px;
+    bottom:8px;
+    opacity: 0.5;
+    
+}
+.cx{
+    position: relative;
+    top: 78px;
+}
+.mv-sf{
+    margin-top: 24px;
+}
+.thumbnail{
+    border: none;
+    text-decoration: none !important; 
+    color:black;
+}
+
+.more{/*더보기 위치변경*/
+    float: right;
+    position: relative;
+    top: -38px;
+    color: red;
+}
+.mv-1{
+    display: inline-block;
+    width: 98%;
+    height: 100px;
+}
+.mv-des{
+    display: inline-block;
+    padding-left: 6px;
+    width:78%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #eee;
+    
+
+}
+.mv-pic{
+    display: inline-block;
+}
+.mv-pic>img{
+    width: 70px;
+    height: 70px;
+}
+.mv-des>div{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 27px;
+}
+.mv-ul{
+    list-style: none;
+    margin: 0;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 4px 16px;
+}
+.mv-des-title{
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.mv-des-year{
+    font-size: small;
+    color: #aaa;
+    font-weight: bold;
+    
+}
+.mv-ul>li{
+    width:32%;
+}
+@media(max-width:1201px){
+    .hidden-1{
+        display: none;
+    }
+    .mv-ul>li{
+        width:53%;
+    }
+}
+@media(max-width:770px){
+    .mv-des{
+        width:73%;
+    }
+}
+@media(max-width:647px){
+    .hidden-2{
+        display: none;
+    }
+    .mv-ul>li{
+        width:114%
+    }
+}
+.mv-1>.thumbnail{
+    width:auto;
+    height: 96px;
+}
+.mv-pic>img{
+    vertical-align: text-bottom;
+}
+a:hover{
+	text-decoration:none;
+}
+#movie-more{
+	color:#ff2f6e;
+}
+#drama-more{
+	color:#ff2f6e;
+}

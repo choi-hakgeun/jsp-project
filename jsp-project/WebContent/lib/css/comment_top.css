@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 20-03-23 코맨트_top css */
+#findStr{
+    background-color: #eee;
+    border: 0px;
+}
+.input-group-addon{
+    border: 0px;
+}
+.hd .row{
+    padding-top:15px;
+}
+
+.glyphicon-search{
+    font-size: 20px;
+    color:#aaa;
+}
+#logo{
+    font-size: 28px;
+    color:#ff2f6e;
+    padding-top:20px;
+    font-weight: bold;
+}
+#profile-image{
+    width:50px;
+
+}
+#logout{
+    font-size: 33px;
+    color:#aaa;
+    
+}
+.col-xs-2{
+    margin-right: 0px;
+}
+#profile-group>span{
+    background-color: #fff;
+    
+}
+#logout-span{
+    padding-right: 5px;
+}
+.div-2{
+    padding-right: 0px;
+    text-align: -webkit-right;
+}
+.span1,.span2{
+    padding-right: 0px;
+    padding-left: 0px;
+    width:65px;
+    padding-top: 0px;
+}
+.top{
+    border-bottom: 1px solid #eee;
+}
+.hd .a{
+    margin-bottom: 5px;
+}
+
+.navbar{
+    background-color: white;
+}
+.back{
+    border-style: none;
+    color: red;
+    position: relative;
+    margin-bottom: -12px;
+}
+.comment_top{
+    top: -7px;
+}
+.page-header{
+    margin: 0px 0 0;
+    text-align: center;
+    border-bottom: 0;
+    font-size: x-large;
+}

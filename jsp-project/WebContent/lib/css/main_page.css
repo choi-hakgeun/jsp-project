@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+div#logo{
+	height: 380px;
+}
+
+span.logo_text{
+	font-size: 50px;
+	color: white;
+	font: bold;
+	position: relative;
+	top: 109px;
+}
+#btnSign{
+	font-weight: 700;
+	margin-top: -10px;
+}
+
+.main-header{
+	padding-top: 28px;
+    padding-right: 20px;
+}
+#gly_search{
+	font-size: 20px;
+    color: #aaa;
+}
+
+#profile-image{
+	width: 33px;
+}
+
+#logout{
+	font-size: 33px;
+	color: #ff2f6e;
+}
+#btnLogin{
+	font-weight: 700;
+	margin-top: -12.6px;
+	margin-right: 13px;
+}
+
+#input-group{
+	box-shadow: 1px 1px 6px #aaa;
+    border-radius: 6px;
+}
+
+.span1, .span2{
+    padding-right: 0px;
+    padding-left: 0px;
+    width:65px;
+	padding-top: 0px;
+	display: inline-block;
+	background-color: transparent !important;
+	border: none;
+	cursor:pointer;
+}
+
+#findStr{	
+	width: 620px;
+    border-left: none
+}
+
+div.input-group.form-group-lg{
+	position: relative;
+	top : -23px;
+	text-align: left;
+    margin: 0 auto;	
+}
+.form-group{
+	text-align: center;
+    display: flex;
+}
+
+#subBarC{
+	position: relative;
+	top : 22px;
+	
+}
+
+.left_bar{
+	position: relative;
+	top:-30px;
+	left : 30px;
+	
+	width:50%;
+	text-align: left;
+	float: left;
+}
+.right_bar{
+	position: relative;
+	top:-30px;
+	left : 30px;
+	
+	width:50%;
+	text-align: left;
+	float: left;
+}
+.left_val{
+	font-weight: bold;
+	font-size: 16px;
+	border-width: 250px;
+	padding: 10px;
+	width: 250px;
+	border-bottom: solid 1px #F2F2F2;
+}
+.right_val{
+	font-weight: bold;
+	font-size: 16px;
+	border-width: 250px;
+	padding: 10px;
+	width: 250px;
+	border-bottom: solid 1px #F2F2F2;
+}
+.left_val:hover{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+.right_val:hover{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+/* sns버튼 */
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+#language{
+	position: relative;
+	left: 80px;
+	bottom: 30px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+span#center{
+	text-align: center;
+}
+
+span.input-group-addon{
+	background: white;
+}
+.login-input{
+	border:none;
+    background: #eee;
+    height: 50px;
+}
+}
+#login-Modal button{
+	border:none;
+}
+.login_logo{
+	color:  #ff2f6e;
+    font-size: 52px;
+    font-weight: bold;
+    border:none;
+}
+.login_logo2{
+	font-size: 17px;
+    font-weight: bold;
+    border:none;
+}
+#btn_main_login{
+    background: #ff2f6e;
+    COLOR: WHITE;
+    FONT-WEIGHT: bold;
+    border:none;
+}
+#btn_find_pwd{
+	margin-top: 17px;
+    color: #ff2f6e;
+    font-size: 16px;
+    border:none;
+}
+#btn_modal_join{
+	font-size: 16px;
+    color: #ff2f6e;
+    border:none;
+}
+.madal_text{
+	font-size: 16px;
+	color:#aaa;
+}
+#btn_modal_naver_login{
+	border:none;
+	background:#68e04d;
+	color:white;
+	font-weight:bold;
+}
+#join-Modal button{
+	border:none;
+}
+.j_m{
+	border:none;
+    background: #eee;
+    height: 50px;	
+}
+#btn_modal_join_sb{
+	background: #ff2f6e;
+    COLOR: WHITE;
+    FONT-WEIGHT: bold;
+    border:none;
+}
+#btn_find_pwd_send{
+	background: #ff2f6e;
+    COLOR: WHITE;
+    FONT-WEIGHT: bold;
+    border:none;
+}
+#btn_modal_join_Save{
+	font-size: 16px;
+    color: #ff2f6e;
+    border:none;
+}
+#modal_text{
+	margin-top: 24px;
+}
+.logout-text{
+	font-size:17px;
+}
+.logout-btns{
+	text-align:center;
+}
+#logout_no{
+	border:none;
+	background:#eee;
+}
+#logout_yes{
+	border:none;
+	background:#ff2f6e;
+}
+.email_n{
+    border: 1px solid red;
+    background: rgb(255, 240, 240);
+    margin-bottom: 10px;
+}
+#findStr2{
+	height: 36px;
+    border: none;
+    position: relative;
+    top: -13px;
+    text-align:left;
+}
+#cmpB>span{
+    border: none;
+    position: relative;
+    top: -13px;
+}
+#findStr2:hover{
+	background:#eee;
+}
+#findStr3{
+	border: none;
+	width: 281px;
+    text-align: left;
+    height: 40px;
+}
+#findStr3:hover{
+	background:#eee;
+}
+#del{
+	border: none;
+    background: none;
+    position: relative;
+    left: 105px;
+    color: #ff2f6e;;
+    font-size: 15px;
+}
